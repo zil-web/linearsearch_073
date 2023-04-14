@@ -33,5 +33,20 @@ void input()
 void linearsearch()
 {
 	char ch;
-	int comparisions; // Number of comparisions
+	int comparisons; // Number of comparisions
+
+	do
+	{
+		//Accept the number to be searched
+		cout << "\nEnter the element you want to search: "; //Langkah 1
+		int item;
+		cin >> item;
+
+		comparisons = 0;
+
+		do
+		{
+			// Accept the number to be search
+		}
+	}
 }
