@@ -22,5 +22,16 @@ void input()
 	cout << "Enter array elements";
 	cout << "-------------------\n";
 	for (i = 0; i < n; i++)
+	{
+		cout << "<" << (i + 1) << ">";
+		cin >> arr[i];
+	}
 
 } 
+
+
+void linearsearch()
+{
+	char ch;
+	int comparisions; // Number of comparisions
+}
